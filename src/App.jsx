@@ -11,7 +11,6 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <ThemeProvider>
-      <Router>
         <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
           <Navbar />
           <Routes>
@@ -23,7 +22,6 @@ function App() {
           </Routes>
           <Footer />
         </div>
-      </Router>
     </ThemeProvider>
   );
 }
