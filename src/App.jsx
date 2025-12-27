@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route, Navigate, Outlet } from 'react-router-dom'
 import { ThemeProvider } from './context/ThemeContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -8,25 +8,29 @@ import ProjectDetails from './pages/ProjectDetails'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
+function Layout() {
+  return (
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
+      <Navbar />
+      <Outlet /> 
+      <Footer />
+    </div>
+  )
+}
+
 function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
-        <Navbar />
-
-        <Routes>
+      <Routes>
+        <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/project/:id" element={<ProjectDetails />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-
-          {/* ✅ fallback for GitHub Pages first load */}
           <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-
-        <Footer />
-      </div>
+        </Route>
+      </Routes>
     </ThemeProvider>
   )
 }
