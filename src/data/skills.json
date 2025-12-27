@@ -1,0 +1,51 @@
+[
+{
+  "category": "Full-Stack Development",
+  "skills": [
+    "HTML5 & CSS3",
+    "Tailwind CSS",
+    "JavaScript (ES6+)",
+    "Node.js & Express.js",
+    "React.js",
+    "MongoDB",
+    "REST APIs",
+    "JWT Authentication",
+    "MERN Integration"
+  ]
+},
+{
+  "category": "Machine Learning & AI",
+  "skills": [
+    "Python",
+    "Flask",
+    "Pandas & NumPy",
+    "Scikit-learn",
+    "NLP Basics",
+    "ML Model Integration",
+    "AI Resume Parser Project"
+  ]
+},
+{
+  "category": "Backend & Architecture",
+  "skills": [
+    "Database Design & Modeling",
+    "API Development",
+    "Middleware & Security",
+    "Authentication & Authorization",
+    "Scalable Backend Systems",
+    "Error Handling & Debugging"
+  ]
+},
+{
+  "category": "Tools & Technologies",
+  "skills": [
+    "Git & GitHub",
+    "VS Code",
+    "Postman",
+    "Jupyter Notebook",
+    "npm",
+    "Python IDEs",
+    "AWS EC2"
+  ]
+}
+]

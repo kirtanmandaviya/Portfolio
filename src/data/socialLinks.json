@@ -1,0 +1,22 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://github.com/kirtanmandaviya",
+    "icon": "FaGithub"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/kirtanmandaviya/",
+    "icon": "FaLinkedin"
+  },
+  {
+    "name": "Email",
+    "url": "mailto:kpmandaviya001@gmail.com",
+    "icon": "FaEnvelope"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://x.com/kpmandaviya001",
+    "icon": "FaTwitter"
+  }
+]

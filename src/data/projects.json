@@ -1,0 +1,55 @@
+[
+
+  {
+    "id": "ai-resume-parser-fyp",
+    "title": "AI Resume Parser & Candidate Profiling System",
+    "category": "Full-Stack Applications",
+    "description": "Final year project that uses machine learning to extract structured information from resumes through a full-stack web application.",
+    "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tech": ["React", "Node.js", "Express.js", "MongoDB", "Python", "Machine Learning", "NLP"],
+    "liveUrl": null,
+    "overview": "A full-stack application developed as a final year project to automate resume screening by extracting and structuring candidate information using machine learning techniques.",
+    "problem": "Manual resume screening is time-consuming and inefficient for recruiters, especially when handling a large number of resumes with varying formats.",
+    "solution": "Built a web-based system where users can upload resumes in PDF or DOCX format. The backend processes the files using machine learning and NLP techniques to extract key details such as skills, education, and experience, which are then displayed on a frontend dashboard.",
+    "result": "Successfully demonstrated automated resume parsing with structured data output, showcasing the integration of machine learning models into a MERN-based full-stack application."
+  },
+  {
+    "id": "fwi-prediction-system",
+    "title": "Forest Fire Weather Index (FWI) Prediction System",
+    "category": "Machine Learning",
+    "description": "An end-to-end ML web application that predicts the Forest Fire Weather Index (FWI) using meteorological parameters and Ridge Regression.",
+    "image": "https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tech": ["Python", "Flask", "Scikit-learn", "Pandas", "NumPy", "HTML", "CSS", "AWS EC2"],
+    "liveUrl": "http://testforestfire-env.eba-ftutjkt6.ap-south-1.elasticbeanstalk.com/",
+    "overview": "This project predicts the Forest Fire Weather Index (FWI) based on temperature, humidity, wind speed, rainfall, fire danger indices, and other environmental features. The application includes a user-friendly web interface for input and returns predicted FWI scores indicating fire risk severity.",
+    "problem": "Manual assessment of fire risk using multiple weather parameters is time-consuming and error-prone, making it difficult to take proactive measures against forest fires.",
+    "solution": "Built a regression-based ML model using Ridge Regression to handle multicollinearity and ensure stable predictions. Designed a Flask-based web app with a clean UI for input and real-time prediction, integrating numerical and binary features effectively.",
+    "result": "Delivered a functional ML web application that predicts FWI values accurately. The project demonstrates understanding of the full ML workflow, backend integration with Flask, and deployment on AWS EC2 for practical accessibility."
+  },
+  {
+    "id": "youtube-backend-api",
+    "title": "Video Streaming Platform Backend",
+    "category": "Backend APIs",
+    "description": "Developed a scalable backend API inspired by YouTube to manage users, videos, and interactions.",
+    "image": "https://images.pexels.com/photos/2510428/pexels-photo-2510428.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tech": ["Node.js", "Express.js", "MongoDB", "JWT", "Mongoose", "Multer"],
+    "liveUrl": null,
+    "overview": "A RESTful backend system designed to support a video streaming platform with authentication, video management, and social interactions.",
+    "problem": "Building a scalable backend for a video-based platform requires efficient data modeling, secure authentication, and well-structured APIs to handle user interactions.",
+    "solution": "Designed REST APIs for user authentication, video uploads, likes, comments, and subscriptions. Implemented JWT-based authentication, middleware for route protection, and optimized MongoDB schemas for scalability.",
+    "result": "Successfully built a modular and scalable backend architecture that can serve as the foundation for a full video streaming web or mobile application."
+  },
+  {
+    "id": "online-complaint-backend",
+    "title": "Online Complaint Management System Backend",
+    "category": "Backend APIs",
+    "description": "Built a backend system for managing student complaints with role-based access and status tracking.",
+    "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tech": ["Node.js", "Express.js", "MongoDB", "JWT", "REST API"],
+    "liveUrl": null,
+    "overview": "A backend application designed to handle complaint submission, tracking, and resolution workflows for institutions.",
+    "problem": "Manual complaint handling in institutions is inefficient, lacks transparency, and makes tracking complaint status difficult for both students and administrators.",
+    "solution": "Developed secure REST APIs allowing students to submit complaints and administrators to manage and update complaint statuses. Implemented role-based access control, authentication, and structured database schemas.",
+    "result": "Created a reliable backend system suitable for colleges or organizations to integrate with a frontend or admin dashboard for complaint management."
+  }
+]
