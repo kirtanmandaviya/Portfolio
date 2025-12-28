@@ -57,7 +57,7 @@
     "title": "Real-Time Tic Tac Toe Game",
     "category": "Frontend Applications",
     "description": "A React-based Tic Tac Toe game for two players with real-time UI updates and move history tracking.",
-    "image": "/images/tic-tac-toe.png",
+    "image": "/Portfolio/images/tic-tac-toe.png",
     "tech": ["React", "JavaScript", "HTML", "CSS"],
     "liveUrl": null,
     "overview": "An interactive two-player Tic Tac Toe game built using React that demonstrates state management, component-based architecture, and instant UI updates.",
