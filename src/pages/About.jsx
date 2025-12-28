@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import skills from '../data/skills.json';
 
 const About = () => {
@@ -88,12 +89,12 @@ const About = () => {
           <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
             Interested in my work? Feel free to reach out for internship opportunities, collaboration, or small freelance projects related to backend, full-stack, or ML applications.
           </p>
-          <a
+          <Link
             href="/contact"
             className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors hover:scale-105"
           >
             Get In Touch
-          </a>
+          </Link>
         </motion.div>
       </div>
     </div>

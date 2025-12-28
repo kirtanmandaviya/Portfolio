@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, ExternalLink } from 'lucide-react';
 import projectsData from '../data/projects.json'
@@ -81,22 +82,22 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           >
-            <a
-              href="/work"
+            <Link
+              to="/work"
               className="group px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-semibold hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-1"
             >
               View Work
               <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">
                 →
               </span>
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="/contact"
               className="px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-300 dark:border-gray-600 rounded-xl font-semibold hover:border-blue-600 dark:hover:border-blue-400 transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
               Contact Me
-            </a>
+            </Link>
           </motion.div>
 
           <motion.div
@@ -233,13 +234,13 @@ export default function PortfolioPage() {
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mt-2 text-lg transition-colors">Some of my favorite projects.</p>
             </div>
-            <a 
-              href="/work" 
+            <Link
+              to="/work" 
               className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors group font-medium"
             >
               View All 
               <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
-            </a>
+            </Link>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">

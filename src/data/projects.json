@@ -51,5 +51,19 @@
     "problem": "Manual complaint handling in institutions is inefficient, lacks transparency, and makes tracking complaint status difficult for both students and administrators.",
     "solution": "Developed secure REST APIs allowing students to submit complaints and administrators to manage and update complaint statuses. Implemented role-based access control, authentication, and structured database schemas.",
     "result": "Created a reliable backend system suitable for colleges or organizations to integrate with a frontend or admin dashboard for complaint management."
+  },
+  {
+    "id": "react-tic-tac-toe-game",
+    "title": "Real-Time Tic Tac Toe Game",
+    "category": "Frontend Applications",
+    "description": "A React-based Tic Tac Toe game for two players with real-time UI updates and move history tracking.",
+    "image": "/images/tic-tac-toe.png",
+    "tech": ["React", "JavaScript", "HTML", "CSS"],
+    "liveUrl": null,
+    "overview": "An interactive two-player Tic Tac Toe game built using React that demonstrates state management, component-based architecture, and instant UI updates.",
+    "problem": "Building a turn-based game requires precise state handling to manage player turns, game status, and move history while keeping the UI in sync.",
+    "solution": "Implemented the game using React hooks and component-driven design. The game tracks player turns, updates the board instantly on each move, and displays a chronological log of all player actions below the game board.",
+    "result": "Delivered a smooth and responsive game experience with real-time updates, clear win/draw detection, and a move history log, effectively showcasing React state management and UI reactivity."
   }
+
 ]
