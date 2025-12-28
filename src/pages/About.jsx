@@ -90,7 +90,7 @@ const About = () => {
             Interested in my work? Feel free to reach out for internship opportunities, collaboration, or small freelance projects related to backend, full-stack, or ML applications.
           </p>
           <Link
-            href="/contact"
+            to="/contact"
             className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors hover:scale-105"
           >
             Get In Touch

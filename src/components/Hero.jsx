@@ -93,7 +93,7 @@ const Hero = () => {
             </Link>
 
             <Link
-              href="/contact"
+              to="/contact"
               className="px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-300 dark:border-gray-600 rounded-xl font-semibold hover:border-blue-600 dark:hover:border-blue-400 transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
               Contact Me
