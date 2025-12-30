@@ -1,6 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaExternalLinkAlt, FaArrowLeft } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaArrowLeft, FaGithub } from 'react-icons/fa';
 import projects from '../data/projects.json';
 
 const ProjectDetails = () => {
@@ -51,17 +51,31 @@ const ProjectDetails = () => {
               ))}
             </div>
 
-            {project.liveUrl && (
-              <a
-                href={project.liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-              >
-                <FaExternalLinkAlt />
-                View Live Project
-              </a>
-            )}
+            <div className="flex gap-4 flex-wrap">
+              {project.liveUrl && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                >
+                  <FaExternalLinkAlt />
+                  Live Demo
+                </a>
+              )}
+
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 text-white rounded-lg font-semibold hover:bg-gray-900 transition-colors"
+                >
+                  <FaGithub />
+                  Source Code
+                </a>
+              )}
+            </div>
           </div>
 
           <div className="rounded-xl overflow-hidden shadow-2xl mb-12">
